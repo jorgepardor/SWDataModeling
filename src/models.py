@@ -8,6 +8,8 @@ from eralchemy import render_er
 
 Base = declarative_base()
 
+ #####  the reference diagram can be found here: https://drawsql.app/jp-4geeks/diagrams/sw-database-model   ######
+    
 class User(Base):
     __tablename__ = 'user'
     # Here we define columns for the table person
